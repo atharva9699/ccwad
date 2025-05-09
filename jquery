@@ -1,0 +1,219 @@
+//index.html
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Jquery</title>
+    
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1>Sujal arts</h1>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="index.html" class="ul-btn-active">Home</a></li>
+                <li><a href="about.html" class="ul-btn-active">About</a></li>
+                <li><a href="product.html" class="ul-btn-active">Product</a></li>
+                <li><a href="login.html" class="ul-btn-active">Login/register</a></li>
+                <li></li>
+            </ul>
+        </div>
+        <center><h3>products</h3></center>
+
+        <div data-role="content">
+            <center>
+                <br>
+                <div class="rows">
+                    <div>
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    </div>
+                </div>
+                <br>
+                <div class="rows">
+                    <div>
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    </div>
+                </div>
+                <br>
+                <div class="rows">
+                    <div>
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    </div>
+                </div>
+                <br>
+                <div class="rows">
+                    <div>
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    <img src="iPhone_8_Plus_black-front_967eba48-aace-43da-81f3-01efa8ac6700_480x.webp" alt="" height="250px" width="250px">
+                    </div>
+                </div>
+                <br>
+            </center>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+                <div class="quicklinks">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a><br><br>
+                    <a href="about.html">About</a><br><br>
+                    <a href="product.html">Product</a><br><br>
+                    <a href="login.html">login/Register</a><br><br>              
+                </div>
+                <p>Copyright 2024 | harshu pawar bolte</p>
+            </center>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+//login_register.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1>Sujal arts</h1>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="index.html" class="ul-btn-active">Home</a></li>
+                <li><a href="about.html" class="ul-btn-active">About</a></li>
+                <li><a href="product.html" class="ul-btn-active">Product</a></li>
+                <li><a href="login.html" class="ul-btn-active">Login/register</a></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div>
+            <center><h2>Register</h2></center>
+           </div>
+        <div data-role="content">
+        <label>Full Name: </label>
+        <input type="text"><br>
+
+        <label>Adress: </label>
+        <textarea cols="25" rows="7"></textarea><br>
+
+        <label>pincode: </label>
+        <input type="text"><br>
+
+        <label>Date of birht: </label>
+        <input type="date"><br>
+
+        <label>Email: </label>
+        <input type="email"><br>
+
+        <label>password: </label>
+        <input type="password"><br>
+
+        <input type="submit" value="register" >
+
+        <a href="login.html">Already register? login</a>
+    </div>
+</div>
+    
+    <div data-role="footer" data-theme="b">
+        <center>
+            <div class="quicklinks">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a><br><br>
+                <a href="about.html">About</a><br><br>
+                <a href="product.html">Product</a><br><br>
+                <a href="login.html">login/Register</a><br><br>              
+            </div>
+            <p>Copyright 2024 | harshu pawar bolte</p>
+        </center>
+    </div>
+    
+</body>
+</html>
+
+//login.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1>Sujal arts</h1>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="product.html" >Product</a></li>
+                <li><a href="login.html" class="ul-btn-active">Login/register</a></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div>
+            <center><h2>login</h2></center>
+           </div>
+        <div data-role="content">
+
+        <label>Email: </label>
+        <input type="email"><br>
+
+        <label>password: </label>
+        <input type="password"><br>
+
+        <input type="submit" value="login" >
+
+        <a href="login_register.html">dont have account</a>
+    </div>
+</div>
+    
+    <div data-role="footer" data-theme="b">
+        <center>
+            <div class="quicklinks">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a><br><br>
+                <a href="about.html">About</a><br><br>
+                <a href="product.html">Product</a><br><br>
+                <a href="login.html">login/Register</a><br><br>              
+            </div>
+            <p>Copyright 2024 | harshu pawar bolte</p>
+        </center>
+    </div>
+    
+</body>
+</html>
