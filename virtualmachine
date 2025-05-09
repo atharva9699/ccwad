@@ -1,0 +1,11 @@
+create 2 folder 
+ubuntu bento ->copy in both 
+edit files
+vagrant up  both
+vagrant ssh both
+touch abc.txt
+vi abc.txt
+cat abc.txt
+ for ip ->   ip addr
+scp abc.txt vagrant@ipof2:/home/vagrant
+   
