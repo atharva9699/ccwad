@@ -3,4 +3,5 @@ sudo su
  yum install httpd -y
  cd /var/www/html
  vi index.html
+:wq
  service httpd start
